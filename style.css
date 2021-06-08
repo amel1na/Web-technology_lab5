@@ -260,3 +260,153 @@ footer .copyrights_here a {
 	width: 100px;
 	bottom: 0
 }
+
+@media(max-width: 1229px)
+{
+	.slider_image {
+		width: 260px;
+		height: 400px;
+	}
+	.map_img {
+		margin-top: 20px;
+	}
+}
+
+@media(max-width: 1000px)
+{
+	.slider {
+		min-height: 400px;
+	}
+	.slider_image {
+		margin-top: 70px;
+		width: 250px;
+		height: 360px;
+	}
+	.slider_title {
+		font-size: 40px;
+		margin-top: 100px;
+	}
+	.slider_text {
+		font-size: 16px;
+	}
+	.slider_button {
+		margin-top: 20px;
+	}
+	.title_text {
+		font-size: 30px;
+	}
+
+	img .our_services_item {
+		margin-top: 40px;
+		margin-left: 35px;
+	}
+	.our_services_text {
+		margin-right: 10px;
+	}
+	.col-md-4{
+		padding-left: 0;
+	}
+	.about {
+		padding: 35px 0;
+	}
+	.about_content {
+		margin-top: 35px;
+		margin-left: 100px;
+		max-width: 75%;
+	}
+	.skills {
+		max-width: 700px;
+	}
+}
+
+@media(max-width: 790px)
+{
+	.logo{
+		margin-top: 0px;
+	}
+	.row {
+		padding-top: 30px;
+	}
+	.offset-2{
+		margin-left: 25px;
+	}
+	ol .carousel-indicators{
+		width: 20px;
+		height: 50px;
+	}
+	.slider{
+		padding-left: 10px;
+	}
+	.slider_image {
+		margin-top: 40px;
+		height: 300px;
+		width: 240px;
+	}
+	.slider_title {
+		margin-top: 70px;
+		font-size: 30px;
+	}
+	.slider_text {
+		font-size: 14px;
+	}
+	.title_text {
+		text-align: center;
+	}
+	.our_services_item {
+		padding-left: 30px;
+	}
+	.our_services_text	{
+		width: 200px;
+	}
+	.about_content {
+		margin-left: 55px;
+	}
+	.about_title{
+		margin-left: 55px;
+	}
+	.skills{
+		margin-left: 55px;
+	}
+	
+}
+
+@media(max-width: 555px)
+{
+	.logo {
+		max-width: 70px;
+	}
+	.slider{
+		padding-left: 10px;
+		min-height: 310px;
+	}
+	.skills{
+		max-width: 300px;
+		margin-left: 25px;
+	}
+	.slider_image {
+	display: none;
+	}
+	.offset-2 {
+		margin: 0;
+	}
+	.slider_title {
+		margin-top: 75px;
+		font-size: 22px;
+	}
+	.slider_text {
+		font-size: 12px;
+	}
+	.skills {
+		width: 350px;
+	}
+	.map_image {
+		max-width: 350px;
+	}
+	.form {
+		max-width: 350px;
+		margin-left: 25px;
+	}
+	.message_button {
+		right: 110px;
+	}
+}
